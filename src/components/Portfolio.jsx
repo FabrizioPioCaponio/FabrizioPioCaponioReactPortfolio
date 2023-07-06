@@ -60,7 +60,7 @@ function Portfolio() {
 
           {
             portfolios.map(({ id, src, href, alt, content, icon1, icon2, icon3 }) => (
-              <div key={id} className='group shadow-md m-4 h-auto max-w-full relative bg2'>
+              <div key={id} className='group shadow-md m-4 h-auto max-w-full relative bg2 hover:bg-transparent rounded-md'>
                 <a target='_blank'rel="noreferrer" href={href} >
                   <img className=' border2 duration-1000 hover:scale-110  rounded-md blur-0 hover:blur-sm' target='_blank' alt={alt} src={src} />
                 </a>

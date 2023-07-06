@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
 
   const Content = " La grande passione per la tecnologia e l'informatica mi ha portato ad apprendere competenze nell' ambito della programmazione inizialmente in modo autonomo, creando accattivanti siti web. "
-  const Content2 = "In seguito, grazie a corsi di formazione e grazie a nuovi progetti ho potuto ampliare le mie capacità interfacciandomi con le tecnologie e le metodologie più efficenti"
+  const Content2 = "In seguito, grazie a corsi di formazione e grazie a nuovi progetti ho potuto ampliare le mie capacità interfacciandomi con le tecnologie e le metodologie più efficenti."
 
   return (
     <div name='about' className='w-full h-screen color3 z-20 relative'>
