@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
 
-const HomeCopy = "Realizzo Web Applications e siti web funzionali, prestando una particolare attenzione all' esperienza utente attraverso design accattivanti ed intuitivi. "
+const HomeCopy = "Realizzo Web Applications e siti web funzionali, prestando una particolare attenzione all'esperienza utente attraverso design accattivanti ed intuitivi. "
 
 
     return (

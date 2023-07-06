@@ -60,9 +60,9 @@ function Portfolio() {
 
           {
             portfolios.map(({ id, src, href, alt, content, icon1, icon2, icon3 }) => (
-              <div key={id} className='group shadow-md m-4 h-auto max-w-full relative'>
-                <a target='_blank'rel="noreferrer" href={href}>
-                  <img className=' border2 duration-1000 hover:scale-110 rounded-md h-full blur-0 hover:blur-sm' target='_blank' alt={alt} src={src} />
+              <div key={id} className='group shadow-md m-4 h-auto max-w-full relative bg2'>
+                <a target='_blank'rel="noreferrer" href={href} >
+                  <img className=' border2 duration-1000 hover:scale-110 min-h-max rounded-md blur-0 hover:blur-sm' target='_blank' alt={alt} src={src} />
                 </a>
                 <h2 class="group-hover:scale-y-0  duration-200 p-1 px-2 absolute text-1xl bg2 color1 bungee  rounded-tr-md rounded-bl-md  bottom-0">{content}</h2>
                 <div class="w-0 group-hover:w-1/5  duration-500 p-1  absolute bottom-0 flex ">
