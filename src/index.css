@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Raleway:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+    .bungee{
+        font-family: 'Bungee';
+    }
+    .bebas{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+
+    .color1{
+        color:#141414;
+        
+    }
+    .color2{
+        color:#e9e41d
+    }
+
+    .color3{
+        color:#faeeee;
+        
+    }
+
+    .border2{
+        border-color: #e9e41d;
+        border-width: 3px;
+    }
+
+    .bg1{
+        background-color: #141414;
+    }
+
+    .bg2{
+        background-color: #e9e41d;
+    }
+
+    .bg3{
+        background: rgba( 20, 20, 20, 0.7 );
+        backdrop-filter: blur( 19px );
+
+
+    }
+
+    .bg4{
+        background: rgba( 20, 20, 20, 0.3 );
+        backdrop-filter: blur( 4px );
+
+
+    }
+
+
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    .logo{
+        background-color: #e9e41d;
+        
+        height: 21px;
+        width: 252px;
+
+    
+    }
+    .logo h1{
+        font-family: 'Bungee';
+        font-size: x-large;
+        color: #141414;
+        position: relative;
+        top: -7px;
+        
+    }
+
+   
+
+    .nav-li{
+        color: #e9e41d;
+
+    }
+
+    .button{
+        color: #141414;
+        background-color: #e9e41d;
+        font-weight: bold;
+        
+        
+    }
+    .linklist{
+        color: #141414;
+        background-color: #e9e41d;
+    }
+
+    .bottomBar{
+        left: 50%;
+        margin-left: -124px; /* Half of the width */
+    }
+
+    
+}
