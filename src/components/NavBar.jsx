@@ -37,7 +37,7 @@ const NavBar = () => {
             <div className='logo hover:scale-110 duration-200 cursor-default'>
                 <h1 className=''>FABRIZIO CAPONIO</h1>
             </div>
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex '>
 
                 {links.map(({ id, link }) => (
                     <li key={id} className=' px-4 cursor-pointer capitalize font-medium hover:scale-125 duration-200 nav-li bebas text-2xl'>
@@ -52,7 +52,7 @@ const NavBar = () => {
 
             {nav && (
 
-                <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg1 nav-li duration-300  '>
+                <ul className='flex flex-col justify-center  items-center absolute top-0 left-0 w-full h-screen bg1 nav-li  '>
                     {links.map(({ id, link }) => (
                         <li key={id} className=' px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200 py-6 text-4xl nav-li bebas '>
                             <Link to={link} onClick={() => setNav(!nav)} smooth duration={500}>{link}</Link>
