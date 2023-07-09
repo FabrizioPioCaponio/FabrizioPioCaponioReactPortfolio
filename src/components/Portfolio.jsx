@@ -2,6 +2,7 @@ import React from 'react'
 import SitoVetrina from '../assets/SitoVetrina.png'
 import Crm from '../assets/Crm.png'
 import PortfolioReact from "../assets/Portfolio.png";
+import MeteoApp from "../assets/Screenshot 2023-07-10 004511.png";
 
 import bootstrap from '../assets/Icone/bootstrap.png'
 import css from '../assets/Icone/css-3.png'
