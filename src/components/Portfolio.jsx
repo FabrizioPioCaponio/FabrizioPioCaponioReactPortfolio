@@ -45,6 +45,15 @@ function Portfolio() {
       icon1: react,
       icon2: tailwind,
     },
+    {
+      id: 4,
+      src: MeteoApp,
+      href: 'https://react-meteo-app-fc.netlify.app/',
+      alt: 'React meteo app',
+      content: 'React meteo app',
+      icon1: react,
+      icon2: css,
+    },
 
   ]
 
