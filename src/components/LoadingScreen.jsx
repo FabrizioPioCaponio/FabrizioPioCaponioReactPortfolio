@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const LoadingScreen = () => {
   return (
     <div
@@ -15,7 +16,7 @@ const LoadingScreen = () => {
         justifyContent: 'center',
         zIndex: 40,
       }}
-    >
+    > 
       <div
         style={{
           border: '30px solid #141414',

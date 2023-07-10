@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import LoadingScreen from './components/utils/LoadingScreen';
+import LoadingScreen from './components/LoadingScreen';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import SpacerVh from './components/utils/SpacerVh';
