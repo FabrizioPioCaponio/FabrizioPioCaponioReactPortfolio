@@ -6,103 +6,113 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
 
-    .bungee{
+    .bungee {
         font-family: 'Bungee';
     }
-    .bebas{
+
+    .bebas {
         font-family: 'Bebas Neue', sans-serif;
     }
 
 
-    .color1{
-        color:#141414;
-        
-    }
-    .color2{
-        color:#e9e41d
+    .color1 {
+        color: #141414;
+
     }
 
-    .color3{
-        color:#faeeee;
-        
+    .color2 {
+        color: #e9e41d
     }
 
-    .border2{
+    .color3 {
+        color: #faeeee;
+
+    }
+
+    .border2 {
         border-color: #e9e41d;
         border-width: 3px;
     }
 
-    .bg1{
+    .bg1 {
         background-color: #141414;
     }
 
-    .bg2{
+    .bg2 {
         background-color: #e9e41d;
     }
 
-    .bg3{
-        background: rgba( 20, 20, 20, 0.7 );
-        backdrop-filter: blur( 19px );
+    .bg3 {
+        background: rgba(20, 20, 20, 0.7);
+        backdrop-filter: blur(19px);
 
 
     }
 
-    .bg4{
-        background: rgba( 20, 20, 20, 0.3 );
-        backdrop-filter: blur( 4px );
+    .bg4 {
+        background: rgba(20, 20, 20, 0.3);
+        backdrop-filter: blur(4px);
 
 
     }
 
+    .bg5 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(184deg, rgba(0, 0, 0, 1) 0%, rgba(31, 41, 55, 1) 54%);
+    }
 
-    html{
+
+    html {
         font-family: Arial, Helvetica, sans-serif;
-        
+
 
     }
 
-    .logo{
+    .logo {
         background-color: #e9e41d;
-        
+
         height: 21px;
         width: 252px;
 
-    
+
     }
-    .logo h1{
+
+    .logo h1 {
         font-family: 'Bungee';
         font-size: x-large;
         color: #141414;
         position: relative;
         top: -7px;
-        
+
     }
 
-   
 
-    .nav-li{
+
+    .nav-li {
         color: #e9e41d;
 
     }
 
-    .button{
+    .button {
         color: #141414;
         background-color: #e9e41d;
         font-weight: bold;
-        
-        
+
+
     }
-    .linklist{
+
+    .linklist {
         color: #141414;
         background-color: #e9e41d;
     }
 
-    .bottomBar{
+    .bottomBar {
         left: 50%;
-        margin-left: -124px; /* Half of the width */
+        margin-left: -124px;
+        /* Half of the width */
     }
 
-    
+
 }

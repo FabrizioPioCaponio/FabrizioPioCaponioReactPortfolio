@@ -1,29 +1,41 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
-import Skills from "./components/Skills";
-import SocialiLinks from "./components/SocialiLinks";
-import SpacerVh from "./components/utils/SpacerVh";
+import React, { useState, useEffect } from 'react';
+import LoadingScreen from './components/utils/LoadingScreen';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import SpacerVh from './components/utils/SpacerVh';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import SocialiLinks from './components/SocialiLinks';
 
 function App() {
-  return (
-   <div>
-    <NavBar/>
-    <Home/>
-    <SpacerVh/>
-    <div className="bg3">
-    <About/>
-    <Portfolio/>
-    <Skills/>
-    
-    <Contact/>
-    </div>
+  const [isLoading, setIsLoading] = useState(true);
 
-    <SocialiLinks/>
-    
-   </div>
+  useEffect(() => {
+    // Simula un'operazione asincrona di caricamento dei dati
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
+  return (
+    <div>
+      {isLoading && <LoadingScreen />}
+      
+      <NavBar />
+      <Home />
+      <SpacerVh />
+      
+      <div className="bg3">
+        <About />
+        <Portfolio />
+        <Skills />
+        <Contact />
+      </div>
+
+      <SocialiLinks />
+    </div>
   );
 }
 

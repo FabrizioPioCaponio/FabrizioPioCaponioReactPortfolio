@@ -33,7 +33,7 @@ const NavBar = () => {
 
 
     return (
-        <div className='flex justify-between items-center w-full bg4 h-16 fixed navbar px-4 z-50'>
+        <div className='flex justify-between items-center w-full bg4 h-16 fixed navbar px-4 z-30'>
             <div className='logo hover:scale-110 duration-200 cursor-default'>
                 <h1 className=''>FABRIZIO CAPONIO</h1>
             </div>
