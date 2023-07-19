@@ -7,6 +7,7 @@ import react from '../assets/Icone/physics.png'
 import sass from '../assets/Icone/sass.png'
 import tailwind from '../assets/Icone/tailwind-css.1024x615.png'
 import java from "../assets/Icone/java.png";
+import next from "../assets/Icone/next-js.png"
 
 
 const Skills = () => {
@@ -51,6 +52,11 @@ const icons = [
     id: 8,
     src: java,
     alt: 'java',
+  },
+  {
+    id: 9,
+    src: next,
+    alt: 'next.js',
   }
   
 ]

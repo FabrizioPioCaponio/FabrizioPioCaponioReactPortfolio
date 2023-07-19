@@ -3,12 +3,17 @@ import SitoVetrina from '../assets/SitoVetrina.png'
 import Crm from '../assets/Crm.png'
 import PortfolioReact from "../assets/Portfolio.png";
 import MeteoApp from "../assets/Screenshot 2023-07-10 004511.png";
+import GerryPortfolio from "../assets/Gerryp.png"
+
+
 
 import bootstrap from '../assets/Icone/bootstrap.png'
 import css from '../assets/Icone/css-3.png'
 import js from '../assets/Icone/js.png'
 import react from '../assets/Icone/physics.png'
 import tailwind from '../assets/Icone/tailwind-css.1024x615.png'
+import next from "../assets/Icone/next-js.png"
+
 
 
 
@@ -54,6 +59,16 @@ function Portfolio() {
       content: 'React meteo app',
       icon1: react,
       icon2: css,
+    },
+
+    {
+      id: 5,
+      src: GerryPortfolio,
+      href: 'https://gerry-ciccimarra-portfolio.netlify.app/',
+      alt: 'VideoMaker Portfolio',
+      content: 'Director Portfolio',
+      icon1: next,
+      icon2: tailwind,
     },
 
   ]
