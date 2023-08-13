@@ -3,7 +3,8 @@ import SitoVetrina from '../assets/SitoVetrina.png'
 import Crm from '../assets/Crm.png'
 import PortfolioReact from "../assets/Portfolio.png";
 import MeteoApp from "../assets/Screenshot 2023-07-10 004511.png";
-import GerryPortfolio from "../assets/Gerryp.png"
+import GerryPortfolio from "../assets/Gerryp.png";
+import Twotips from "../assets/2tips.png";
 
 
 
@@ -12,8 +13,8 @@ import css from '../assets/Icone/css-3.png'
 import js from '../assets/Icone/js.png'
 import react from '../assets/Icone/physics.png'
 import tailwind from '../assets/Icone/tailwind-css.1024x615.png'
-import next from "../assets/Icone/next-js.png"
-
+import next from "../assets/Icone/next-js.png";
+import mongo from "../assets/Icone/mongodb.png"
 
 
 
@@ -69,6 +70,16 @@ function Portfolio() {
       content: 'Director Portfolio',
       icon1: next,
       icon2: tailwind,
+    },
+
+    {
+      id: 6,
+      src: Twotips,
+      href: 'https://2tips.vercel.app/',
+      alt: 'Tips blog',
+      content: 'Tips blog',
+      icon1: next,
+      icon2: mongo,
     },
 
   ]
